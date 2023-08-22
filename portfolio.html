@@ -6,47 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortfolioDemo</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet">
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">SIDDHARTHA.</a>
-
+        <a href="#" class="logo">SIDDHARTHA BANERJEE.</a>
+        
         <nav class="navber">
             <a href="#" class="active">Home</a>
             <a href="#">About</a>
             <a href="#">Works</a>
-            <a href="#">Portfolio</a>
-            <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJftvWXNjFJsFWTCTpqqFWQqShzpghpSbnqvMnMRZNVtxMTXNPqxqmkFFtKmdRMrfqzbQBq">Contact</a>
+            <!--a href="#">Portfolio</a-->
+            <a rel="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJftvWXNjFJsFWTCTpqqFWQqShzpghpSbnqvMnMRZNVtxMTXNPqxqmkFFtKmdRMrfqzbQBq" target="_blank">Contact</a>
         </nav>  
     </header>
     <section class="home">
         <div class="home-content">
             <h1>Hi, I'm <span id="info"></span></h1>
+            <h3>Software Engineer</h3>
             <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
             <!-- Setup and start animation! -->
             <script>
                 var typed = new Typed('#info', {
-                strings: ['Siddhartha Banerjee','a Software Developer','a Frontend Developer'],
+                strings: ['Siddhartha','a software developer','a foodie', 'a traveller'],
                 typeSpeed: 100,
-                backSpeed: 100
+                backSpeed: 100,
+                loop:true
                 });
             </script>
             
-            <p>I am looking for a challenging career opportunity in the Electronics/It industry. The
-                ideal profile will help me leverage my knowledge and technical skills.</p>
-            <p>The ideal
-                place will be an organization where I can continue to learn, and sharpen my skills
-                while adding value to the organization. The ideal team will be a group of motivated
-                people helping and sharing knowledge with the objective of increasing the
-                competitiveness of the organization.</p>
+            <p>I am a skilled software developer with a knowledge of many programming languages like HTML, CSS, Python, Java, Javascript, etc.</p> 
+                <p>Bringing together outstanding teamwork and problem-solving abilities with a positive and confident personality.</p>
+            <p>A focused and hardworking person on the work.</p>
+            
             
             <div class="btn">
                 <a href="#">Hire me</a>
-                <a href="https://www.linkedin.com/in/siddhartha-banerjee-218126202/">Let's Talk</a>
+                <a rel="https://www.linkedin.com/in/siddhartha-banerjee-218126202/" target="_blank">Let's Talk</a>
             </div>
         </div>
+
+        <div class="social">
+            <a rel="https://www.facebook.com/siddharthabanerjee097/" target="_blank"><i class="bx bxl-facebook-circle"></i></a>
+            <a rel="https://www.linkedin.com/in/siddhartha-banerjee-218126202/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a rel="https://github.com/Siddhartha097" target="_blank"><i class="bx bxl-github" ></i></a>
+        </div>
+
+        <span class="home-img"></span>
+       
     </section>
+    <!--nav class="nav">
+        <a href="#">Email: sidbanerjee26@gmail.com</a>
+        <a href="#">Phone: +917044967681</a>
+    </nav-->
+   
     
 </body>
 </html>
